@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudCast</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/CloudCast Logo.png" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="container">
+        <img src="images/CloudCast Logo.png" alt="" class="logo">
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="Enter Your City">
+
+            <button id="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+
+        <div class="location-not-found">
+            <h1>Sorry, Location not found!!!</h1>
+            <img src="images/404.png" alt="404 Error">
+        </div>
+
+        <div class="weather-box" style="display: none;">
+            <img src="images/cloud.png" alt="" class="weather-icon">
+            <div class="weather">
+                <p class="weather-temp">12°C</p>
+                <p class="weather-description">Overcast Clouds</p>
+            </div>
+
+            <div class="weather-box-footer">
+                <div class="humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div class="humidity-description">
+                        <p class="humidity-percent">53%</p>
+                        <p class="humidity-desc">Humidity</p>
+                    </div>
+                </div>
+
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="wind-description">
+                        <p class="wind-speed">0.77Km/H</p>
+                        <p class="wind-desc">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
