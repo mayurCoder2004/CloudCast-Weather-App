@@ -40,6 +40,15 @@ an interactive user experience.
 - [@mayurCoder2004](https://github.com/mayurCoder2004)
 
 
+## Demo
+
+#### Images
+
+| ![Dashboard](https://raw.githubusercontent.com/mayurCoder2004/CloudCast-Weather-App/refs/heads/main/demo%20screenshots/Dashboard.png) | ![Searching on Dashboard](https://raw.githubusercontent.com/mayurCoder2004/CloudCast-Weather-App/refs/heads/main/demo%20screenshots/Search%20on%20dashboard.png) | ![Showing Weather](https://raw.githubusercontent.com/mayurCoder2004/CloudCast-Weather-App/refs/heads/main/demo%20screenshots/Showing%20weather.png) | ![Location not found](https://raw.githubusercontent.com/mayurCoder2004/CloudCast-Weather-App/refs/heads/main/demo%20screenshots/Location%20not%20found.png) |
+|-----------------------|-----------------------------|--------------------------|--------------------------|
+| **Dashboard**         | **Searching on Dashboard** | **Showing Weather**      | **Location not found**   |
+
+
 ## Project Deploy Link
 
 [CloudCast](https://cloudcastweather.netlify.app/)
